@@ -23,7 +23,7 @@ test.describe('Test suite Frontend', () => {
   await createClientPage.createClient();
 });
 
- test("Edit a Room and put price as 0, should recive error ", async ({ page }) => {
+ test("Edit a room and put price as 0, should recive error ", async ({ page }) => {
     const editRoomPage = new EditRoomsPage(page);
     await editRoomPage.goTo();
     await editRoomPage.setPrice('0');
