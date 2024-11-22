@@ -3,7 +3,7 @@ import "dotenv/config";
 import { PayloadGenerator } from './PayloadGenerator';
 import { APIHelper } from './ApiHelper';
 
-test.describe('Test suite Backend', () => {
+test.describe('Test suite backend', () => {
   let apiHelper: APIHelper;
 
   test.beforeAll(async ({request}) => {
