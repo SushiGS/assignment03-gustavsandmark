@@ -4,7 +4,7 @@ import { EditRoomsPage } from "./Rooms/EditRoomPage";
 import "dotenv/config";
 import { CreateClientPage } from "./Clients/CreateClientPage";
 
-test.describe('Test suite Frontend', () => {
+test.describe('Test Suite frontend', () => {
 
  test.beforeEach(async ({ page }) => {
    const loginPage = new LoginPage(page);
@@ -29,5 +29,8 @@ test.describe('Test suite Frontend', () => {
     await editRoomPage.setPrice('0');
     await editRoomPage.editRoomWithError();
  });
+
+
+ ///////TEEEEEEEEEEEEEEEEEEEEST
 
 })
