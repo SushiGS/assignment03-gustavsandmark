@@ -4,7 +4,7 @@ import { EditRoomsPage } from "./Rooms/EditRoomPage";
 import "dotenv/config";
 import { CreateClientPage } from "./Clients/CreateClientPage";
 
-test.describe('Test suite Frontend', () => {
+test.describe('Test suite frontend', () => {
 
  test.beforeEach(async ({ page }) => {
    const loginPage = new LoginPage(page);
