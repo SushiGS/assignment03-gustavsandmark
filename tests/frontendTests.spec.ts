@@ -30,7 +30,4 @@ test.describe('Test Suite frontend', () => {
     await editRoomPage.editRoomWithError();
  });
 
-
- ///////TEEEEEEEEEEEEEEEEEEEEST
-
 })
